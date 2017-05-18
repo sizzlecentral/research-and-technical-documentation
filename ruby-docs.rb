@@ -35,13 +35,34 @@
 #   => Example
 #       => "abcd".start_with?("hell") = false
 #
+# Array
+#------
+# => first
+#   => Arguments
+#       => none
+#   => Return type
+#       => object or nil
+#   => Example
+#       => array = [1, 2, 3]
+#       => array.first = 1
 #
+# => delete_at
+#   => Arguments
+#       => index
+#   => Return type
+#       => object or nil
+#   => Example
+#       => array = [1, 2, 3]
+#       => array.delete_at(3) = nil
 #
-#
-#
-#
-#
-#
+# => pop
+  # => Arguments
+      # => none
+  # => Return type
+      # => object or nil
+  # => Example
+      # => array = [1, 2, 3]
+      # => array.pop = [1, 2]
 #
 #
 #
