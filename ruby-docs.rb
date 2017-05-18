@@ -56,13 +56,42 @@
 #       => array.delete_at(3) = nil
 #
 # => pop
-  # => Arguments
-      # => none
-  # => Return type
-      # => object or nil
-  # => Example
-      # => array = [1, 2, 3]
-      # => array.pop = [1, 2]
+#   => Arguments
+#       => none
+#   => Return type
+#       => object or nil
+#   => Example
+#       => array = [1, 2, 3]
+#       => array.pop = [1, 2]
+#
+# Hash
+#-----
+# => to_a
+#   => Arguments
+#       => none
+#   => Return type
+#       => array
+#   => Example
+#       => hash = {"key" => value, "key" => value,}
+#       => hash.to_a = [["key", value], ["key", value]]
+#
+#   => has_key?
+#       => Arguments
+#       => key
+#   => Return type
+#       => boolean
+#   => Example
+#       => hash = {"key" => value, "key" => value,}
+#       => hash.has_key?("fred") = false
+#
+# => 
+#
+#
+#
+#
+#
+#
+#
 #
 #
 #
